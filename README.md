@@ -23,8 +23,11 @@ for other package you want to use:
 the method for logger to use like fmt.Print、fmt.Println、fmt.Printf
 
 for example :
+
 	logger.Info("")
+	
 	logger.Infoln("")
+
 	logger.Infof("%s", "test")
 
 the same to the Error、Warn
